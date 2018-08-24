@@ -1,0 +1,40 @@
+package day4;
+
+import java.util.Scanner;
+
+public class DemoStringEqual {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="citi";
+		System.out.println(name);
+		name=name.concat(",pune");
+		System.out.println(name);
+
+//		
+//		Scanner scanner=new Scanner(System.in);
+//		System.out.println("Enter the string");
+//		String string=scanner.nextLine();
+//		System.out.println(string);
+//		System.out.println(string.charAt(3));
+//		System.out.println(string.indexOf('u'));
+//		char [] a=(string.toCharArray());
+//		for (char c : a) {
+//			System.out.println(c);
+//			
+//		}
+		
+		String name1=new String("citi");
+		String name2="citi";
+				System.out.println(name1==(name2));
+				
+	    StringBuilder builder=new StringBuilder("city 1");
+	    System.out.println(builder);
+	    
+	    builder.append(;
+	    System.out.println(builder);)
+		
+		
+	}
+
+}

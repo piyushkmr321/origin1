@@ -1,0 +1,14 @@
+package day4;
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="citi";
+		System.out.println(name);
+		name.concat(",pune");
+		System.out.println(name);
+
+	}
+
+}

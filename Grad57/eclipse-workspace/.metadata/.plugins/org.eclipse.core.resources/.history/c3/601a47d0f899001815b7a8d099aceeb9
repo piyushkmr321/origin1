@@ -1,0 +1,24 @@
+package day4;
+
+import java.util.Scanner;
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="citi";
+		System.out.println(name);
+		name=name.concat(",pune");
+		System.out.println(name);
+
+		
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter the string");
+		String string=scanner.nextLine();
+		System.out.println(string);
+		System.out.println(string.charAt(3));
+		System.out.println(string.indexOf('u'));
+		
+	}
+
+}

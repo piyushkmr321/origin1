@@ -1,0 +1,14 @@
+
+public class Demo1D {
+	public static void main(String[] args) {
+		double data=100;
+		if(data==100)
+		System.out.println(data);
+		
+		
+		
+		
+		
+	}
+
+}

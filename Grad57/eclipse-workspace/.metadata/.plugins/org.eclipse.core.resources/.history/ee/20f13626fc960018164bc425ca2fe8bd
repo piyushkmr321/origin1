@@ -1,0 +1,13 @@
+
+public class Demo1D {
+	public static void main(String[] args) {
+		double data=100d;
+		System.out.println(data);
+		
+		
+		
+		
+		
+	}
+
+}

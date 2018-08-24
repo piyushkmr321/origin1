@@ -1,0 +1,10 @@
+
+public class TestEmployeeIo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+EmployeeIOImpl employee=new EmployeeIOImpl();
+employee.writeEmployee(employee.readEmployee());
+	}
+
+}

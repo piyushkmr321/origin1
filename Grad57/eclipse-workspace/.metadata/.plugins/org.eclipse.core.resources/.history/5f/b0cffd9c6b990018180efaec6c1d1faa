@@ -1,0 +1,11 @@
+package com.jopo;
+
+public class Addition extends Calculator {
+
+	@Override
+	public void calculations() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

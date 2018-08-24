@@ -1,0 +1,21 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+import com.pojo.Student;
+
+public class DemoSerialization {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student st =new Student(12,300, "abcd");
+		try {
+			FileOutputStream fo =new FileOutputStream("student.txt");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
+	}
+
+}

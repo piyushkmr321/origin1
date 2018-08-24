@@ -1,0 +1,7 @@
+package com.jopo;
+
+abstract public class Calculator {
+	abstract public void calculations();
+	
+
+}

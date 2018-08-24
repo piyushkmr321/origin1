@@ -1,0 +1,18 @@
+package com.pojo;
+
+public class TestEmployee2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		person p1=new person(12, "ABC");
+		person p2=p1;
+		if(p1.equals(p2))
+		{
+			System.out.println("equal");
+		}
+		else
+			System.out.println("not equal");
+
+	}
+
+}

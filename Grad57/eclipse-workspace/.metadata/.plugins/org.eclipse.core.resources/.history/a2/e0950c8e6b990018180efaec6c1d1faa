@@ -1,0 +1,8 @@
+package com.jopo;
+
+abstract public class Calculator {
+	abstract public void calculations(int a, int b);
+	abstract public void calculations(float a, float b);
+	
+
+}
